@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div>
+        <form action="page.php" method="get">
+            nome: <input type="text" name="name" id="name"><br>
+            Ano de nascimento: <input type="number" name="anonas" id="anonas">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="mas" value="Homem" checked>
+                <label for="mas">Masculino</label><br>
+                <input type="radio" name="sexo" id="fem" value="Mulher">
+                <label for="fem">Feminino</label>
+            </fieldset>
+            <input type="submit" value="enviar">
+        </form>
+        
+    </div>
+
+</body>
+</html>
